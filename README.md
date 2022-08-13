@@ -1,5 +1,19 @@
 # project auriga
 
+# guide
+kaise chalana hai dekhlo
+
+pre-req
+node
+npm
+
+1. git clone (link copy paste kar lena)
+2. vs code me folder khol lena
+3. vs code terminal ```npm i ```
+4. ```npm run dev ```
+5. terminal link dikhega usko control+click kar dena
+
+
 # home
 ![](@attachment/Clipboard_2022-08-13-15-57-22.png)
 
