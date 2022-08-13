@@ -11,7 +11,7 @@ npm
 2. vs code me folder khol lena
 3. vs code terminal ```npm i ```
 4. ```npm run dev ```
-5. terminal link dikhega usko control+click kar dena
+5. terminal me link dikhega usko control+click kar dena
 
 
 # home
