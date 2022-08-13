@@ -1,2 +1,19 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Footer from "../components/footer.svelte";
+  import Header from "../components/header.svelte";
+  import Hero from "../components/hero.svelte";
+</script>
+
+<main>
+  <div>
+    <Header />
+    <Hero />
+    <Footer />
+  </div>
+</main>
+
+<style>
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+</style>
