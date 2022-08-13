@@ -4,8 +4,10 @@
 kaise chalana hai dekhlo
 
 pre-req
-node
-npm
+
+- node (v16)
+
+- npm(v8)
 
 1. git clone (link copy paste kar lena)
 2. vs code me folder khol lena
