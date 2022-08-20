@@ -49,3 +49,5 @@ similar as above
 - creating impact
 - contact
 - bottom bar (socials) + brand
+
+(testing mac setup - ignore this)
