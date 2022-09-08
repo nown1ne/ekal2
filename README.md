@@ -1,53 +1,38 @@
-# project auriga
+# create-svelte
 
-# guide
-kaise chalana hai dekhlo
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-pre-req
+## Creating a project
 
-- node (v16)
+If you're seeing this, you've probably already done this step. Congrats!
 
-- npm(v8)
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-1. git clone (link copy paste kar lena)
-2. vs code me folder khol lena
-3. vs code terminal ```npm i ```
-4. ```npm run dev ```
-5. terminal me link dikhega usko control+click kar dena
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
+## Developing
 
-# home
-![](@attachment/Clipboard_2022-08-13-15-57-22.png)
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-![](@attachment/Clipboard_2022-08-13-15-54-03.png)
+```bash
+npm run dev
 
-## navbar
-- auriga branding
-- ekal branding
-- log in/out
-- language switch
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-## main content
+## Building
 
-- tabs switcher
-- grid 
+To create a production version of your app:
 
+```bash
+npm run build
+```
 
-# content page
+You can preview the production build with `npm run preview`.
 
-## navbar
-similar as above
-
-![](@attachment/Clipboard_2022-08-13-15-59-58.png)
-## page
-- status bar
-- main content
-
-![](@attachment/Clipboard_2022-08-13-15-59-37.png)
-## footer
-- about us
-- creating impact
-- contact
-- bottom bar (socials) + brand
-
-(testing mac setup - ignore this)
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
