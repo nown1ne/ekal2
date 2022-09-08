@@ -21,7 +21,7 @@
     </div>
 </div>
 
-<div transition:fade class="mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
+<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
     <a href="">
         <img class="p-3 rounded-t-lg" src={edu} alt="">
     </a>
@@ -32,7 +32,7 @@
     </div>
 </div>
 
-<div transition:fade class=" mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
+<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
     <a href="#">
         <img class="p-3 rounded-t-lg" src={agr} alt="">
     </a>
@@ -43,7 +43,7 @@
     </div>
 </div>
 
-<div transition:fade class=" mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
+<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
     <a href="#">
         <img class="p-3 rounded-t-lg" src={pdv} alt="">
     </a>
@@ -54,7 +54,7 @@
     </div>
 </div>
 
-<div transition:fade class=" mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
+<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
     <a href="#">
         <img class="p-3 rounded-t-lg" src={emp} alt="">
     </a>
@@ -65,7 +65,7 @@
     </div>
 </div>
 
-<div transition:fade class=" mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
+<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
     <a href="#">
         <img class="p-3 rounded-t-lg" src={serv} alt="">
     </a>
