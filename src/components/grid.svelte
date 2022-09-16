@@ -4,13 +4,13 @@
         import agr from '$lib/assets/agr.png';
         import emp from '$lib/assets/emp.png';
         import serv from '$lib/assets/serv.png';
-        import pdv from '$lib/assets/perdev.png';
-        import { fade, blur, fly, slide, scale } from "svelte/transition";
+        import pdv from '$lib/assets/perDev.png';
+        import { fade} from "svelte/transition";
 </script>
 
-<div class="p-10 pb-20 grid grid-cols-1 gap-4 gap-y-8 md:grid-cols-3">
+<div class="p-10 pb-20 grid grid-cols-1 gap-4 gap-y-8 md:grid-cols-2 lg:grid-cols-3">
 
-<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
+<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:saturate-50 hover:saturate-100">
     <a href="">
         <img class="p-3 rounded-t-lg" src={govt} alt="">
     </a>
@@ -21,7 +21,7 @@
     </div>
 </div>
 
-<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
+<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:saturate-50 hover:saturate-100">
     <a href="">
         <img class="p-3 rounded-t-lg" src={edu} alt="">
     </a>
@@ -32,7 +32,7 @@
     </div>
 </div>
 
-<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
+<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:saturate-50 hover:saturate-100">
     <a href="#">
         <img class="p-3 rounded-t-lg" src={agr} alt="">
     </a>
@@ -43,7 +43,7 @@
     </div>
 </div>
 
-<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
+<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:saturate-50 hover:saturate-100">
     <a href="#">
         <img class="p-3 rounded-t-lg" src={pdv} alt="">
     </a>
@@ -54,7 +54,7 @@
     </div>
 </div>
 
-<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
+<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:saturate-50 hover:saturate-100">
     <a href="#">
         <img class="p-3 rounded-t-lg" src={emp} alt="">
     </a>
@@ -65,7 +65,7 @@
     </div>
 </div>
 
-<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:grayscale hover:grayscale-0">
+<div transition:fade class="hover:shadow-lg mx-auto max-w-sm bg-white rounded-lg border border-gray-200 shadow-md transition-all duration-200 cursor-pointer filter md:saturate-50 hover:saturate-100">
     <a href="#">
         <img class="p-3 rounded-t-lg" src={serv} alt="">
     </a>
